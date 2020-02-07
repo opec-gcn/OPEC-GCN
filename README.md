@@ -53,12 +53,13 @@ A+OPEC-GCN| **28.3** | **40.6** | **30.8** | **26.5**  | **12.1**
 CrowdPose| 27.5 | 40.8 |29.9| 24.8| 9.5    
 CrowdPose+OPEC-GCN| **28.8** | **41.6**| **31.3** | **26.7**  | **12.3**     
 
-Results on COCO datasets:  
+Results on OCPose datasets:  
 
-Methods |mAP@50:95|AP50|AP75 
-:--------------:|:--:|:--:|:--:   
-AlphaPose(pytorch)| 68.4 |87.7 |75.6   
-CrowdPose(pytorch)| 69.1 | 89.3 |76.4 
-CrowdPose+OPEC-GCN| **69.4** | **89.5**| **76.8**    
+Methods |mAP@50:95|AP50|AP75|AP80| AP90    
+:--------------:|:--:|:--:|:--: |:--:  |:--:    
+AlphaPose|30.0 |55.6|28.1| 22.0| 8.4  
+A+OPEC-GCN| **31.9** | **58.6** | **30.6** | **24.1**  | **9.1**    
+CrowdPose| 30.8 | 58.4 |28.5|22.4| 8.2    
+CrowdPose+OPEC-GCN| **32.8** | **60.5**| **31.1** | 24.0| **9.2**       
 
 
