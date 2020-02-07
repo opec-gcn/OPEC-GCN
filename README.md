@@ -11,15 +11,18 @@ you can download the dataset from below link.
 [OCHuman](https://cg.cs.tsinghua.edu.cn/dataset/form.html?dataset=ochuman)  
 [MSCOCO](http://images.cocodataset.org/zips/train2017.zip)  
 
-## How to train your OPEC-GCN
+## Initialize
+### Folder Structure
 Firstly you should download the dataset, and then your project folder looks like follow structure. All of img_dir you can modify in [config](configs/OPEC_GCN_CrowdPose_Test.py)  
 
 --Crowdpose/images/...  
 --train2017/...  
 --OPEC-GCN/...  
-
+### Download weights
 At the same time, you need download the weights of sppe and yolov3 because our OPEC-GCN depends on Alphapose as base module.  
 So download the models manually: **duc_se.pth** (2018/08/30) ([Google Drive]( https://drive.google.com/open?id=1OPORTWB2cwd5YTVBX-NE8fsauZJWsrtW) | [Baidu pan](https://pan.baidu.com/s/15jbRNKuslzm5wRSgUVytrA)), **yolov3-spp.weights**([Google Drive](https://drive.google.com/open?id=1D47msNOOiJKvPOXlnpyzdKA3k6E97NTC) | [Baidu pan](https://pan.baidu.com/s/1Zb2REEIk8tcahDa8KacPNA)). Place them into `./weights/sppe` and `./weights/yolo` respectively.
+
+
 
 
 ## Train
