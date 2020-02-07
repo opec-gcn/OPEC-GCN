@@ -32,24 +32,25 @@ You can easily start to train CrowdPose dataset using following code.
 CUDA_VISIBLE_DEVICES=0 python ./tools/train_alpha_pose_gcn.py --indir ../crowdpose/images/ --nEpochs 25 --trainBatch 20 --validBatch 60 --LR 1e-3 --dataset 'coco' --config ./configs/OPEC_GCN_CrowdPose_Test.py
 ```
 ## Result
-
-
+Results on CrowdPose-test datasets:
 Methods |mAP@50:95|AP50|AP75|AP80| AP90 
 :--------------:|:--:|:--:|:--: |:--:  |:--:
 AlphaPose| 67.9 |86.0 | 72.6| 66.8 | 45.7
-A+OPEC-GCN| **69.6** | 86.1 | **74.9** | **69.3**  | **48.0** 
+A+OPEC-GCN| **69.6** | **86.1** | **74.9** | **69.3**  | **48.0** 
 CrowdPose| 68.5 | 86.7 | 73.2| 66.9 |  45.9
 CrowdPose+OPEC-GCN| **70.2** | **86.8**| **75.4** | **69.9**  | **48.4** 
 
- 
-Baidu WebDisk Key: p2j3
-## Ablation Result
- Augmentation| fixup | mAP 
-:--------------:|:--:|:--:
-No|No|54.3
-Yes|No|53.9
-No|YES|55.6
-YES|YES|54.8   
-## Inference Result
-![Pipeline](assets/show.jpg)
+Results on OCHuman datasets:
+Methods |mAP@50:95|AP50|AP75|AP80| AP90 
+:--------------:|:--:|:--:|:--: |:--:  |:--:
+AlphaPose| 27.1 |40.1 |29.7| 25.0| 10.1
+A+OPEC-GCN| **28.3** | **40.6** | **30.8** | **26.5**  | **12.1** 
+CrowdPose| 27.5 | 40.8 |29.9| 24.8| 9.5
+CrowdPose+OPEC-GCN| **28.8** | **41.6**| **31.3** | **26.7**  | **12.3** 
 
+Results on COCO datasets:
+Methods |mAP@50:95|AP50|AP75
+:--------------:|:--:|:--:|:--: 
+AlphaPose(pytorch)| 68.4 |87.7|75.6
+CrowdPose(pytorch)| 69.1 | 89.3 |76.4
+CrowdPose+OPEC-GCN| **69.4** | **89.5**| **76.8** 
