@@ -63,6 +63,7 @@ CrowdPose| 30.8 | 58.4 |28.5|22.4| 8.2
 CrowdPose+OPEC-GCN| **32.8** | **60.5**| **31.1** | 24.0| **9.2**    
 
 ## Visualize results  
+Left is current state of the art method, other side is our method.
 ![OCPose](show_img/OCPose.jpg)  
 
 ![CrowdPose](show_img/CrowdPose.png)  
