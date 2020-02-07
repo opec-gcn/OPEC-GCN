@@ -2,7 +2,7 @@
 OPEC-GCN: Occluded Pose Estimation and Correction using Graph Convolutional Neural Networks  
 
 ## Module Pipeline
-![Pipeline](assets/structure.png)
+![Pipeline](show_img/pipeline.png)
 
 ## training
 ```bash
