@@ -12,7 +12,8 @@ you can download the dataset from below link.
 [MSCOCO](http://images.cocodataset.org/zips/train2017.zip)  
 
 ## How to train your OPEC-GCN
-Firstly you should download the dataset, and then your project folder looks like follow structure. All of img_dir you can modify in [config](configs)
+Firstly you should download the dataset, and then your project folder looks like follow structure. All of img_dir you can modify in [config](configs/OPEC_GCN_CrowdPose_Test.py)  
+
 --Crowdpose/images/...  
 --train2017/...  
 --OPEC-GCN/...  
