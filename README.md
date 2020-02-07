@@ -32,11 +32,13 @@ You can easily start to train CrowdPose dataset using following code.
 CUDA_VISIBLE_DEVICES=0 python ./tools/train_alpha_pose_gcn.py --indir ../crowdpose/images/ --nEpochs 25 --trainBatch 20 --validBatch 60 --LR 1e-3 --dataset 'coco' --config ./configs/OPEC_GCN_CrowdPose_Test.py
 ```
 ## Result
-Results on CrowdPose-test datasets:  
+Results on CrowdPose-test datasets: 
+
+
 Methods |mAP@50:95|AP50|AP75|AP80| AP90 
-:--------------:|:--:|:--:|:--: |:--:  |:--:
-AlphaPose| 67.9 |86.0 | 72.6| 66.8 | 45.7
-A+OPEC-GCN| **69.6** | **86.1** | **74.9** | **69.3**  | **48.0** 
-CrowdPose| 68.5 | 86.7 | 73.2| 66.9 |  45.9
-CrowdPose+OPEC-GCN| **70.2** | **86.8**| **75.4** | **69.9**  | **48.4** 
+:--------------:|:--:|:--:|:--: |:--:  |:--:  
+AlphaPose| 67.9 |86.0 | 72.6| 66.8 | 45.7  
+A+OPEC-GCN| **69.6** | **86.1** | **74.9** | **69.3**  | **48.0**   
+CrowdPose| 68.5 | 86.7 | 73.2| 66.9 |  45.9  
+CrowdPose+OPEC-GCN| **70.2** | **86.8**| **75.4** | **69.9**  | **48.4**  
 
