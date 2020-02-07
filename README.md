@@ -26,19 +26,9 @@ So download the models manually: **duc_se.pth** (2018/08/30) ([Google Drive]( ht
 Considering convenience, I already processed datasets for you so that you can easily train your opec-gcn model.
 download the json file manually: [train_process_datasets]( https://drive.google.com/open?id=1OPORTWB2cwd5YTVBX-NE8fsauZJWsrtW), [test_process_datasets](https://drive.google.com/open?id=1D47msNOOiJKvPOXlnpyzdKA3k6E97NTC). Place them into `./train_process_datasets` and `./test_process_datasets` respectively.
 
-
-
 ## Train
-```bash
-bash train.sh  
-
-Better Para:  
-   --epochs 120  
-   --batch_size 8  
-   --model_def ./config/yolo-nano_person.cfg  
-   --lr 2.5e-4  
-   --fix_up True  
-   --lr_policy cosine
+```
+CUDA_VISIBLE_DEVICES=0 python ./tools/train_alpha_pose_gcn.py --indir ../crowdpose/images/ --nEpochs 25 --trainBatch 20 --validBatch 60 --LR 1e-3 --dataset 'coco' --config ./configs/OPEC_GCN_CrowdPose_Test.py
 ```
 ## Testing
 ```bash
