@@ -30,10 +30,10 @@ download the json file manually: [train_process_datasets]( https://drive.google.
 ```
 CUDA_VISIBLE_DEVICES=0 python ./tools/train_alpha_pose_gcn.py --indir ../crowdpose/images/ --nEpochs 25 --trainBatch 20 --validBatch 60 --LR 1e-3 --dataset 'coco' --config ./configs/OPEC_GCN_CrowdPose_Test.py
 ```
-## Testing
 ```bash
-python test.py --data_config ./config/coco_person.data --model_def ./config/yolo-nano_person.cfg --weights_path [checkpoint path]
+bash train.sh
 ```
+
 ## Result
 In this engineer we only train our model using coco-train person class  
 we compare with yolov-3，yolo-tiny. We got competitive results.  
