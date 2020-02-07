@@ -53,4 +53,12 @@ A+OPEC-GCN| **28.3** | **40.6** | **30.8** | **26.5**  | **12.1**
 CrowdPose| 27.5 | 40.8 |29.9| 24.8| 9.5    
 CrowdPose+OPEC-GCN| **28.8** | **41.6**| **31.3** | **26.7**  | **12.3**     
 
+Results on COCO datasets:  
+
+Methods |mAP@50:95|AP50|AP75 
+:--------------:|:--:|:--:|:--:   
+AlphaPose(pytorch)| 68.4 |87.7 |75.6   
+CrowdPose(pytorch)| 69.1 | 89.3 |76.4 
+CrowdPose+OPEC-GCN| **69.4** | **89.5**| **76.8**    
+
 
