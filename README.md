@@ -11,7 +11,15 @@ you can download the dataset from below link.
 [OCHuman](https://cg.cs.tsinghua.edu.cn/dataset/form.html?dataset=ochuman)  
 [MSCOCO](http://images.cocodataset.org/zips/train2017.zip)  
 
-## training
+## How to train your OPEC-GCN
+Firstly you should download the dataset, and then your project folder looks like follow structure. All of img_dir you can modify in [config](configs)
+--Crowdpose/images/...  
+--train2017/...  
+--OPEC-GCN/...  
+
+
+
+## Train
 ```bash
 bash train.sh  
 
