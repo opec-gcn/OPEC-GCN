@@ -24,7 +24,7 @@ So download the models manually: **duc_se.pth** (2018/08/30) ([Google Drive]( ht
 
 ### Process Data
 Considering convenience, I already processed datasets for you so that you can easily train your opec-gcn model.
-download the json file manually: **train_process_datasets** [Google Drive]( https://drive.google.com/open?id=1OPORTWB2cwd5YTVBX-NE8fsauZJWsrtW), **test_process_datasets**[Google Drive](https://drive.google.com/open?id=1D47msNOOiJKvPOXlnpyzdKA3k6E97NTC). Place them into `./train_process_datasets` and `./test_process_datasets` respectively.
+download the json file manually: [train_process_datasets]( https://drive.google.com/open?id=1OPORTWB2cwd5YTVBX-NE8fsauZJWsrtW), [test_process_datasets](https://drive.google.com/open?id=1D47msNOOiJKvPOXlnpyzdKA3k6E97NTC). Place them into `./train_process_datasets` and `./test_process_datasets` respectively.
 
 
 
