@@ -18,8 +18,8 @@ Firstly you should download the dataset, and then your project folder looks like
 --train2017/...  
 --OPEC-GCN/...  
 
-At the same time, you need download the weights of sppe and yolov3 because our OPEC-GCN depends on Alphapose as base module.
-
+At the same time, you need download the weights of sppe and yolov3 because our OPEC-GCN depends on Alphapose as base module.  
+So download the models manually: **duc_se.pth** (2018/08/30) ([Google Drive]( https://drive.google.com/open?id=1OPORTWB2cwd5YTVBX-NE8fsauZJWsrtW) | [Baidu pan](https://pan.baidu.com/s/15jbRNKuslzm5wRSgUVytrA)), **yolov3-spp.weights**([Google Drive](https://drive.google.com/open?id=1D47msNOOiJKvPOXlnpyzdKA3k6E97NTC) | [Baidu pan](https://pan.baidu.com/s/1Zb2REEIk8tcahDa8KacPNA)). Place them into `./models/sppe` and `./models/yolo` respectively.
 
 
 ## Train
