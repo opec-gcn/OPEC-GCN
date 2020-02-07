@@ -64,7 +64,8 @@ CrowdPose+OPEC-GCN| **32.8** | **60.5**| **31.1** | 24.0| **9.2**
 
 ## Visualize results  
 ![OCPose](show_img/OCPose.jpg)  
-![CrowdPose](show_img/CrowdPose.png)
+
+![CrowdPose](show_img/CrowdPose.png)  
 
 
 
