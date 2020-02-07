@@ -18,6 +18,8 @@ Firstly you should download the dataset, and then your project folder looks like
 --train2017/...  
 --OPEC-GCN/...  
 
+At the same time, you need download the weights of sppe and yolov3 because our OPEC-GCN depends on Alphapose as base module.
+
 
 
 ## Train
